@@ -15,7 +15,7 @@ database.connectToDB();
 
 app.use(express.json());
 app.use(cookieParser());
-const ALLOWED_ORIGIN = process.env.CORS_ORIGIN || "http://localhost:5173";
+const ALLOWED_ORIGIN = process.env.CORS_ORIGIN || "https://quizzy-1653.onrender.com";
 
 console.log(`Using CORS origin: ${ALLOWED_ORIGIN}`);
 
